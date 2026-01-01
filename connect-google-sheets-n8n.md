@@ -142,11 +142,70 @@
 
     <img width="700" height="456" alt="image" src="https://github.com/user-attachments/assets/b794a564-457e-4af4-b766-b8f47ecf9778" />
 
-25.  Choose Web Application for the Application type 
+25. Choose Web Application for the Application type 
 
-     <img width="700" height="524" alt="image" src="https://github.com/user-attachments/assets/d4e7a453-c007-4bb9-8555-ecffc3be46c0" />
+    <img width="700" height="524" alt="image" src="https://github.com/user-attachments/assets/d4e7a453-c007-4bb9-8555-ecffc3be46c0" />
      
 26. Fill in the Name and Click + Add URL
-    <img width="1304" height="978" alt="image" src="https://github.com/user-attachments/assets/4c421251-d31e-4304-8013-56daf7cbddcc" />
 
-27. Go back to the n8n site and copy the url
+    <img width="700" height="978" alt="image" src="https://github.com/user-attachments/assets/4c421251-d31e-4304-8013-56daf7cbddcc" />
+
+28. Go back to the n8n site and copy the url
+
+    <img width="700" height="892" alt="image" src="https://github.com/user-attachments/assets/77a25f84-74a3-4080-9acd-4ae9d42d10b0" />
+
+29. Paste it back on the GoogleCloud site
+    
+    <img width="700" height="486" alt="image" src="https://github.com/user-attachments/assets/90eb4c85-4b8c-4124-b2bc-d82b729d26d0" />
+
+31. Click Create
+
+    <img width="700" height="420" alt="image" src="https://github.com/user-attachments/assets/9be6f0bc-95d4-453c-b989-2e9b496a9761" />
+
+32. Copy the Client ID & Client Secret
+
+    <img width="700" height="892" alt="image" src="https://github.com/user-attachments/assets/9bcd8069-8d0a-4d85-8c01-34a7472db304" />
+
+33. Paste it on the Cliend ID & Client Secret on the n8n site
+    
+    <img width="700" height="930" alt="image" src="https://github.com/user-attachments/assets/9f05d43b-78ba-4c05-a5b0-a3ce828eb6aa" />
+
+34. Click Save
+
+    <img width="700" height="884" alt="image" src="https://github.com/user-attachments/assets/4cd11d3d-bc88-4766-8b7d-7b299fe70f70" />
+
+35. Go back to the GoogleCloud site, Click on the project that you have made
+    
+    <img width="700" height="586" alt="image" src="https://github.com/user-attachments/assets/0519a116-0469-4fbd-ab1e-1d4d6fc6d43b" />
+
+36. Click Audience, Click Publishing app
+
+    <img width="700" height="842" alt="image" src="https://github.com/user-attachments/assets/641f2c44-4048-4a06-a461-a918caa94533" />
+
+37. Click Confirm
+
+    <img width="700" height="541" alt="image" src="https://github.com/user-attachments/assets/193c1882-f57e-4212-a726-d17a00f5beb4" />
+
+38. Click Sign in with Google
+
+    <img width="700" height="948" alt="image" src="https://github.com/user-attachments/assets/0295582c-f316-4db2-abf3-9dd60a7b8bd9" />
+
+38. Click Advanced
+
+    <img width="700" height="936" alt="image" src="https://github.com/user-attachments/assets/8f98316f-1852-4b5e-88b2-b1f6429157db" />
+
+39. Click Go to runner web id(unsafe)
+
+    <img width="700" height="886" alt="image" src="https://github.com/user-attachments/assets/0d9b6f85-6559-4a46-a854-db1416c1a6d5" />
+
+40. Click Select all
+
+    <img width="700" height="890" alt="image" src="https://github.com/user-attachments/assets/cac35162-b1a9-43d8-bff4-e44841137e36" />
+
+41. Click Continue
+
+    <img width="700" height="874" alt="image" src="https://github.com/user-attachments/assets/153ed95a-cdc1-4bf6-92fb-fcb351750c7c" />
+
+42. It Should Appear Connection Successful
+
+    <img width="700" height="908" alt="image" src="https://github.com/user-attachments/assets/bb042eab-e116-4f11-a537-f6bc91971d1a" />
