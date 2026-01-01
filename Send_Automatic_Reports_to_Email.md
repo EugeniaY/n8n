@@ -8,39 +8,43 @@
 
    <img width="700" height="1452" alt="image" src="https://github.com/user-attachments/assets/e30c382c-ca55-4c6d-a88e-4ab9575875bd" />
 
-3. Change the Trigger Interval to Days, Days Between Triggers to 1, Trigger at Hour to 5pm, Trigger at Minute to 0, then Click Execute step
+3. Change the Trigger Interval to Days, Days Between Triggers to 1, Trigger at Hour to 5pm, Trigger at Minute to 0
 
    <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/994734ca-d345-4eed-826b-008faa4e44cd" />
 
-4. Open Google Spreadsheets and Create a new file "Daily Reports"
+4. Click Settings and Enable Always Output Data and Execute step
+   
+   <img width="700" height="1410" alt="image" src="https://github.com/user-attachments/assets/822155aa-075d-46a7-9b48-bb5adce5df54" />
+
+5. Open Google Spreadsheets and Create a new file "Daily Reports"
 
    <img width="700" height="211" alt="image" src="https://github.com/user-attachments/assets/4d3e2bd4-ac2b-41ea-8e6e-eb8fcf0f3cc7" />
 
-5. Make a table containing Date, Content, Status, Notes
+6. Make a table containing Date, Content, Status, Notes
 
    <img width="700" height="373" alt="image" src="https://github.com/user-attachments/assets/2e878f46-8198-4956-9f0d-13d53af0922f" />
 
-6. Open Brevo site, Click Settings
+7. Open Brevo site, Click Settings
 
    <img width="700" height="1068" alt="image" src="https://github.com/user-attachments/assets/cfa5574f-0d93-40d3-a83c-b2e5f5ca4be8" />
 
-7. Click SMTP & API, then Click API keys & MCP, then Click Generate a new API key
+8. Click SMTP & API, then Click API keys & MCP, then Click Generate a new API key
 
    <img width="700" height="1392" alt="image" src="https://github.com/user-attachments/assets/e2fe74ea-5a0a-4458-94ed-c69092a9b91c" />
 
-8. Fill in your Name your API key and Click Generate
+9. Fill in your Name your API key and Click Generate
 
    <img width="700" height="380" alt="image" src="https://github.com/user-attachments/assets/bb5c4a50-5582-4f61-b79a-a66b4bc2a244" />
 
-9. Go back to the n8n site, Click + then Click Credential
+10. Go back to the n8n site, Click + then Click Credential
 
    <img width="700" height="440" alt="image" src="https://github.com/user-attachments/assets/373a3878-1052-4d22-b442-bd2595691ee7" />
 
-10. Choose Google Sheets OAuth2 API and continue
+11. Choose Google Sheets OAuth2 API and continue
 
     <img width="700" height="339" alt="image" src="https://github.com/user-attachments/assets/999984df-3025-495f-8def-12a549b2421e" />
 
-11. Click Open Docs
+12. Click Open Docs
 
    <img width="700" height="706" alt="image" src="https://github.com/user-attachments/assets/4575626f-f50c-4385-ab98-b1e6e33978d2" />
 
@@ -165,4 +169,72 @@
 37. This Step Haven't Connect with the cloud yet, to connect that check this github in step 35
     https://github.com/EugeniaY/n8n/blob/57a47f2835ba90484d75225c644f99ce1bd31659/connect-google-sheets-n8n.md
 
-38. 
+38. Click the ...
+
+    <img width="700" height="558" alt="image" src="https://github.com/user-attachments/assets/871d4f7a-0d04-4f2c-8a1e-f47afaf007e8" />
+
+
+39. Click Settings
+
+    <img width="700" height="740" alt="image" src="https://github.com/user-attachments/assets/01305c84-8cca-4834-aa6c-7aa12479d67f" />
+
+40. Change the Timezone based on your location and save
+
+    <img width="700" height="1141" alt="image" src="https://github.com/user-attachments/assets/5f6991b6-0948-4c58-85b2-fe71e902603b" />
+
+
+41. Click Personal, Click Credential, Search for Brevo and click that, and click Continue
+
+    <img width="700" height="1167" alt="image" src="https://github.com/user-attachments/assets/72d6e627-5b27-407f-8217-4f8110f56353" />
+
+42. Fill in the API key
+
+    <img width="700" height="1161" alt="image" src="https://github.com/user-attachments/assets/67971a14-1d86-4e15-a80c-fd13e44c908b" />
+
+43. Click Workflows, Click Your Project Name
+
+    <img width="700" height="616" alt="image" src="https://github.com/user-attachments/assets/57f115ff-b4ed-4d07-b172-78bbcb34c803" />
+
+44. Click the + sign
+
+    <img width="700" height="532" alt="image" src="https://github.com/user-attachments/assets/fa84b481-34a8-46ee-bde2-ff324dec25fa" />
+
+45. Search Google Sheets, and Click Google Sheets
+
+    <img width="700" height="986" alt="image" src="https://github.com/user-attachments/assets/2f27dbd9-f048-4df5-82f3-5ba169056411" />
+
+46. Click Get row(s) in sheet
+
+    <img width="700" height="1318" alt="image" src="https://github.com/user-attachments/assets/35688a32-0e7e-419e-b4a9-b353c1dcf72b" />
+
+47. Fill in like this below
+    a) Document name must pick the same with the Document's name you have created before in Google Sheets
+    
+    <img width="700" height="1282" alt="image" src="https://github.com/user-attachments/assets/a9ef4e00-98d4-442c-bba2-c124fb3dedd8" />
+
+    b) Pict Date for Column
+
+    <img width="700" height="535" alt="image" src="https://github.com/user-attachments/assets/0aa0b5b5-ceff-4ba8-b1c0-827b01b36633" />
+
+    c) For the value fill in with this
+       <pre>
+          ={{ new Date().toISOString().split('T')[0] }}
+      </pre>
+   
+       <img width="700" height="1267" alt="image" src="https://github.com/user-attachments/assets/f5ef49b6-b4c6-44de-9313-e5d129f6cd61" />
+       *For the timezone, you can change based on your location :)
+
+    d) Scroll down to Option and click Add option
+
+       <img width="700" height="1288" alt="image" src="https://github.com/user-attachments/assets/32f2dff5-f01a-4602-9ea3-b88e92ebca59" />
+
+    e) Choose Output Formatting
+   
+      <img width="700" height="1282" alt="image" src="https://github.com/user-attachments/assets/35f54a6e-de42-4fdc-b765-6a57111f2586" />
+
+48. Click Settings Enable Always Output Data and Execute Step
+    
+    <img width="700" height="1341" alt="image" src="https://github.com/user-attachments/assets/ce0dbf6e-d7fd-4e11-8486-1242489c36e5" />
+
+
+
